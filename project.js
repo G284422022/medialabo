@@ -1,4 +1,3 @@
-
   let toshiID = document.querySelector('#print');
   toshiID.addEventListener('click', sendRequest);
  
