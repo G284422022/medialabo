@@ -3,14 +3,20 @@
    <head>
     <link rel="stylesheet" href="project.css">
       <meta charset="utf=8">
-      <script src="weather.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+      <script src="project.js" defer></script>
       <title>世界の天気</title>
    </head>
    <body>
     <h1>
         世界の天気を調べることができます！！！
     </h1>
+    <p id = "kekka">
 
+    </p>>
+    <label for="都市ID">都市ID</label>
+    <input type="text" name="toshi" id="toshi" size="10">
+    <button id="print">検索</button>
 
     <table class="hyou">
         <tr>
