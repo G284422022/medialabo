@@ -15,7 +15,7 @@ function hantei() {
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
   let y = document.querySelector('input[name="yoso"]');
   let yoso = parseInt(y.value);
-  let syouri = 0;
+  let syouri = false;
   let kaisu2 = kaisu +1;
   
   let syutuanswer = document.querySelector('span#answer');
@@ -23,12 +23,13 @@ function hantei() {
 
   console.log(kaisu2+"回目の予想: "+yoso );
   let result = document.querySelector('p#result');
-if(kaisu < 3 && syouri === 0){
+if(kaisu < 3 && syouri === false){
   let syutusu = document.querySelector('span#kaisu');
-  syutusu.textContent = kaisu2;
+  syutusu.textContent = kaisu2+'回目の予想: ';
   if( kotae === yoso){
     result.textContent = '正解です．おめでとう!';
     kaisu = 3;
+    syouri = true;
   }else if
   (kotae > yoso){
     result.textContent ='まちがい．答えはもっと大きいですよ';
