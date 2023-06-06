@@ -26,3 +26,9 @@ h1{
    .hyou td:first-child {
 	background: #e9faf9;
    }
+   .tenki {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	border-spacing: 0;
+   }
