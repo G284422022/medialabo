@@ -49,6 +49,9 @@ let data = {
 let toshi = data.name;
 let saidaikion = data.main.temp_max;
 let saiteikion = data.main.temp_min;
+let tenkii = [];
+tenkii = data.weather;
 console.log(toshi);
 console.log(saidaikion);
 console.log(saiteikion);
+console.log(tenkii[2]);

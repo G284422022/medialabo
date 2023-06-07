@@ -26,9 +26,22 @@ h1{
    .hyou td:first-child {
 	background: #e9faf9;
    }
-   .tenki {
+   .hyou {
 	width: 100%;
 	text-align: center;
 	border-collapse: collapse;
 	border-spacing: 0;
+   }
+.tenkikekka{
+	padding: 10px;
+	background: #59c4e7;
+	border: solid 1px #666666;
+	color: #153baf;
+   }
+   .tenkikekka td {
+	padding: 10px;
+	border: solid 1px #666666;
+   }
+   .tenkikekka td:first-child {
+	background: #e9faf9;
    }
